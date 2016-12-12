@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background: url(https://abs.twimg.com/b/front_page/v1/EU_1.jpg) no-repeat center fixed; -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -35px; 
+}
+
+.page-wrap::after {
+  content: "";
+  display: block;
+}
+
+
+footer, .page-wrap::after {
+  height: 35px; 
+}
+
+.row {
+	color: white;
+}
+
+header {
+	background-color: white;
+}
+
+.margin-01 {
+	margin-top: 40px;
+	font-size: 41px;
+	weight
+}
+
+.margin-02 {
+	margin-top:40px;
+}
+
+.formulaire-01 {
+	margin-top: 40px;
+}
+
+.dropdown-toggle {
+	float: right;
+}
